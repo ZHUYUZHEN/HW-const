@@ -1,4 +1,4 @@
-void bubbleSort(int *array,int size)
+void bubbleSort( int const *array,int size)
 {
 	void swap(int *element1,int *element2);
 	unsigned int pass;

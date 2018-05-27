@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define SIZE 10
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-void bubbleSort(int *array, size_t size);
+void bubbleSort(int const  *array, size_t size);
 
 int main(int argc, char *argv[]) {
 	int x[SIZE]={5,8,12,26,56,4,45,9,2,8};
