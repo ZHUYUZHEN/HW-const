@@ -5,6 +5,7 @@ void bubbleSort( int const *array,int size)
 	int i;
 	
 	for(pass=1;pass<10;++pass){
+		
 		for(i=0;i<10;++i){
 			if(array[i]>array[i+1]){
 				swap(&array[i],&array[i+1]);

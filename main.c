@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
 	
 	size_t i;
 	puts("Original Data:");
+	
 		for (i=0;i<SIZE;++i)
 	{
 		printf("%4d",x[i]);
