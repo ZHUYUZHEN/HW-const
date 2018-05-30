@@ -6,6 +6,7 @@ void bubbleSort(int const  *array, size_t size);
 
 int main(int argc, char *argv[]) {
 	int x[SIZE]={5,8,12,26,56,4,45,9,2,8};
+	
 	size_t i;
 	puts("Original Data:");
 		for (i=0;i<SIZE;++i)
